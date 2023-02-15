@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to bottom, #ffaa00, #ffcc00, #ffaa00);
+  background-image: radial-gradient(circle at center, #ffffff, #ffddaa);
+  background-blend-mode: screen;
+  animation: orange-background 5s ease-in-out infinite;
+  }
+
+  @keyframes orange-background {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    } 
+  }
+  
+  h1 {
+    color: rgb(30, 30, 108);
+    text-align: center; 
+    padding: 25px;
+    font-size: 40px; 
+  }
+
+  div {
+    text-align: right;
+    padding: 25px;
+  }
+
+  button{
+    border: none;
+    border-radius: 5px; 
+    color: rgba(8, 8, 8, 0.854);
+    font-style: italic;
+    background-color: rgb(253, 188, 231);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+
+    #idag {
+      padding: 20px 25px; 
+      font-size: xx-large; 
+      display:inline-block; 
+      text-align: center;
+      margin: 15px; 
+      border-radius: 20px; 
+      background-color: #4dfd50;}
+    
+
+    
